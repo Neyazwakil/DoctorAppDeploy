@@ -34,6 +34,4 @@ public class Patient {
     @Enumerated(EnumType.STRING)
     private Gender gender;
 
-    @OneToOne(mappedBy = "patient")
-    Appointment appointment;
 }
